@@ -1,0 +1,420 @@
+@import url("https://use.typekit.net/rqe6zxf.css");
+@import url("https://use.typekit.net/rqe6zxf.css");
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, label {
+    font-size: 16pt;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+}
+
+/* Styling */
+
+a, p {
+    font-family: "serifa", serif;
+    font-weight: 300;
+}
+
+.abilities {
+    grid-template-columns: 380px;
+    grid-template-rows: 35px 35px;
+}
+
+.about {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.about article {
+    margin: 15px;
+    padding: 15px;
+}
+
+.about .flex-row {
+    margin: -30px;
+}
+
+.about h2 {
+    text-align: center;
+    margin: 0px;
+}
+
+.about input {
+    width: 400px;
+    height: 30px;
+    font-family: 'serifa', serif;
+}
+
+.about input, .about label {
+    font-size: 18pt;
+}
+
+.about p {
+    text-align: justify;
+    hyphens: auto;
+}
+
+.about section {
+    padding: 15px;
+}
+
+.about-below article {
+    margin: 15px;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+    text-shadow: 1px 0 5px black, -1px 0 5px black, 0 1px 5px black, 0 -1px 5px black;
+}
+
+.border {
+    border: 1px solid #88B;
+    border-radius: 10px;
+}
+
+.bottom-buttons {
+    margin-bottom: 15px;
+}
+
+.button {
+    margin: 15px;
+    padding: 15px;
+    width: fit-content;
+    font-size: 18pt;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+}
+
+.corner {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(136, 136, 187, 0.75);
+    border-radius: 0 10px 0 75%;
+    width: 100px;
+    height: 100px;
+}
+
+.details {
+    word-wrap: break-word;
+    margin: 15px;
+    padding: 0 15px;
+    max-width: 1280px;
+    background-color: rgb(136, 136, 187, 0.25);
+}
+
+.details article {
+    width: 420;
+    float: left;
+    margin-right: 15px;
+    padding: 0 15px 15px 15px;
+    text-align: center;
+}
+
+.details article div {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.details article div p {
+    text-align: center;
+}
+
+.details h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.details h3 {
+    font-family: "serifa", serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 15px auto 0px auto;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.details iframe {
+    width: 450px;
+    height: 450px;
+    float: right;
+    margin: 25px 0 15px 15px;
+}
+
+.details p {
+    width: 100%;
+    text-align: justify;
+    hyphens: auto;
+    margin: 15px auto;
+    line-height: 1.5em;
+}
+
+.email-box {
+    text-align: center;
+    line-height: 2em;
+    margin: 0;
+}
+
+.email-box h3 {
+    margin: 15px 15px 0 15px;
+}
+
+.email-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-button input {
+    margin-left: 15px;
+}
+
+.fast-facts {
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px;
+    margin: auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    width: 100vw;
+    background-size: 100%;
+    background-position: 0% 100%;
+    padding: 40px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-fix {
+    min-height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(136, 136, 187, 0.75);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "bd-geminis", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.85vw;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: "bd-geminis", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    margin: 5px auto -10px auto;
+}
+
+h3 {
+    font-family: "serifa", serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin: -15px;
+    font-variant: small-caps;
+}
+
+header {
+    max-width: 100vw;
+    background-size: 100%;
+    background-position: 0% 0%;
+    height: 110px;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+html {
+    scroll-padding-top: 105px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin: 15px 15px 0px 15px;
+}
+
+.img-margin {
+    margin: 15px 15px 0px 15px;
+}
+
+.img-margin img {
+    margin: 0;
+}
+
+.index {
+    margin: auto;
+    max-width: 1280px;
+}
+
+.index a, p {
+    line-height: 1.25em;
+}
+
+.index article {
+    margin: 15px;
+}
+
+.index article p {
+    margin: 15px 15px 0px 15px;
+}
+
+.index img {
+    width: 100%;
+}
+
+.index p {
+    text-align: justify;
+    margin: 15px;
+}
+
+input {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.intro {
+    margin: 15px;
+}
+
+.intro p {
+    line-height: 1.5em;
+}
+
+label {
+    font-family: "serifa", serif;
+    font-weight: 300;
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 12px auto;
+    width: fit-content;
+}
+
+#neptune {
+    font-size: 72pt;
+    top: -10px;
+    right: 10px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.planet-img {
+    width: 380px;
+}
+
+.planet-card {
+    margin: 15px;
+    text-align: center;
+}
+
+.planets article {
+    width: 410px;
+    text-align: center;
+}
+
+.small-caps {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.space-background {
+    background-image: url("Images/carina-nebula.jpeg");
+    background-color: rgb(136, 136, 187, 0.25);
+    background-blend-mode: soft-light;
+}
+
+.stats {
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 35px 35px 35px 35px;
+    column-gap: 0px;
+}
+
+.symbol-normal {
+    position: absolute;
+    font-size: 64pt;
+    top: -7px;
+    right: 15px;
+}
+
+.symbol-weird {
+    position: absolute;
+    font-size: 60pt;
+    top: 0px;
+    right: 0px;
+    font-weight: 400;
+}
+
+.type {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background-color: rgb(136, 136, 187, 0.75);
+    padding: 0px 15px 3px 35px;
+    font-family: "serifa", serif;
+    font-weight: 400;
+    font-size: 32px;
+    font-style: italic;
+    font-variant:small-caps
+}
+
+.type-container {
+    position: relative;
+}
